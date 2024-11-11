@@ -21,7 +21,7 @@ Note: This library is fully documented to provide guidance on usage and customiz
 
 To include this library in your Android project, use JitPack to add it as a dependency:
 
-### Step 1. Add the JitPack repository to your build file : ###
+### Step 1. Add the JitPack repository to your settings.gradle file : ###
     ```gradle
 	dependencyResolutionManagement {
 		repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
