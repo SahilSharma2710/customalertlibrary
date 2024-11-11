@@ -8,6 +8,9 @@ A simple, customizable alert dialog library for Android using Jetpack Compose. T
 - **Multiple Button Support**: Configure multiple buttons with custom text and actions.
 - **Callback Handling**: Retrieve the selected button text from the dialog.
 
+Note: This library is fully documented to provide guidance on usage and customization.
+
+
 ## Requirements ##
 
 - **Kotlin**: 1.7 or above
