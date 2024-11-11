@@ -40,7 +40,19 @@ To include this library in your Android project, use JitPack to add it as a depe
     ```
     
 
+## Parameters
+
+| Parameter           | Type                             | Description                                                                                              |
+|---------------------|----------------------------------|----------------------------------------------------------------------------------------------------------|
+| `title`             | `String`                         | The title text to display at the top of the alert dialog.                                                |
+| `message`           | `String`                         | The main message content of the alert dialog.                                                            |
+| `buttons`           | `List<Pair<String, () -> Unit>>` | A list of button labels and their corresponding actions. Each button is defined as a pair of a label (`String`) and an action (`() -> Unit`). |
+| `onDismissRequest`  | `() -> Unit`                     | Callback to execute when the dialog is dismissed without button interaction, such as tapping outside.     |
+| `onButtonClicked`   | `(String) -> Unit`               | Callback invoked with the label of the button clicked, allowing you to capture which button was pressed. |
+| `modifier`          | `Modifier`                       | Optional modifier to adjust the layout or appearance of the dialog.                                      |
+
 ## Usage
+
 
 Here's an example of how to use the `CustomAlert` component in a Jetpack Compose project.
 
